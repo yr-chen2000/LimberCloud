@@ -48,6 +48,7 @@ def main(folder):
     grid_size = 350
     z_grid = numpy.linspace(z1, z2, grid_size + 1)
     
+    # Define pivot values for redshift, scale factor, and eta
     z_pivot = 0.5
     a_pivot = 0.5
     eta_pivot = 0.0
