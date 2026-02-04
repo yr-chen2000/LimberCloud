@@ -35,6 +35,7 @@ def main(tag, folder):
     source_bin_size = len(source['bins'])
     source_redshift = source['redshift_range']
     
+    # Define the redshift grid
     grid_size = 350
     z1 = source_redshift.min()
     z2 = source_redshift.max()
@@ -56,6 +57,7 @@ def main(tag, folder):
     lens_bin_size = len(lens['bins'])
     lens_redshift = lens['redshift_range']
     
+    # Define the redshift grid
     grid_size = 350
     z1 = lens_redshift.min()
     z2 = lens_redshift.max()
